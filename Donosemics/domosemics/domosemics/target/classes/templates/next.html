@@ -1,0 +1,19 @@
+<html xmlns:th="https://thymeleaf.org">
+	<head>
+		<title>Sample</title>
+	</head>
+	
+	<body>
+			
+			<table>
+				<tr>
+					<td><h4>Hello! </h4></td>
+					<td><h4 th:text="${user.name}"></h4></td>
+					<td><h4> Your Mail ID</h4></td> 
+					<td><h4 th:text="${user.email}"></h4></td>
+					<td><h4>is saved</h4></td>
+				</tr>
+			</table>
+		 
+	</body>
+</html>
